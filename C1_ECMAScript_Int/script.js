@@ -32,7 +32,23 @@ function calcularCosto(destino, transporte) {
 }
 
 function mostrarItinerario(params) {
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+  for (var i = 0; i < destinos.length; i++) {
+    var viaje = destinos[i];
+    console.log('Destino: ' + viaje.destino);
+    console.log('Fecha: ' + viaje.fecha);
+    console.log('Transporte: ' + viaje.transporte);
+    console.log('Costo: $' + viaje.costo);
+    console.log('--------------------------');
   }
 }
+
+// app.js
+
+function iniciarApp(params) {
+  registrarDestino('Paris', '2024-06-15', 'Avión');
+  registrarDestino('Londres', '2024-07-01', 'Tren');
+
+  mostrarItinerario();
+}
+
+iniciarApp();
