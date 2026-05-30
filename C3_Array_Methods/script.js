@@ -38,9 +38,9 @@ function bubbleSort(arr) {
     // Comparates
     for (let j = 0; j < arr.length - 1; j++) {
       if (arr[j] > arr[j + 1]) {
-        let pivote = arr[j];
+        let pivot = arr[j];
         arr[j] = arr[j + 1];
-        arr[j + 1] = pivote;
+        arr[j + 1] = pivot;
       }
     }
   }
