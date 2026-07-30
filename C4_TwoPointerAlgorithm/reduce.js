@@ -27,6 +27,6 @@ let users = [
 let total = users.reduce((acc, user) => acc + user.age, 0);
 console.log(total);
 
-let words = ['¡', 'Hola', 'Mundo', '!'];
+let words = ['¡', 'Hola ', 'Mundo', '!'];
 let phrase = words.reduce((acc, words) => acc + words);
-console.log(words);
+console.log(phrase);

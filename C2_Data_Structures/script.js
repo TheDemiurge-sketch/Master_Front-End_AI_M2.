@@ -44,12 +44,3 @@ console.log(list.showList());
 
 list.emptyList();
 console.log(list.showList());
-
-// class_exercises.js
-// SetTimeOut
-
-// SetInterval - 1 to 5 timer, auto stop.
-
-// Callback_Function - Start & Ending Message.
-
-// API, async & await.
